@@ -1,0 +1,17 @@
+{
+  "name": "fusion-token-importer",
+  "version": "1.0.0",
+  "description": "Imports Token Studio JSON files as Figma variables via MCP",
+  "type": "module",
+  "main": "src/importer.js",
+  "scripts": {
+    "import": "node src/importer.js",
+    "dry-run": "node src/importer.js --dry-run",
+    "export:fetch": "node src/exporter.js --generate-fetch-code",
+    "export:dry-run": "node src/exporter.js --from-json figma-data.json --dry-run",
+    "export": "node src/exporter.js --from-json figma-data.json",
+    "reconnect": "node src/reconnect.js | pbcopy && echo 'Reconnect code copied to clipboard — paste into Figma via MCP'",
+    "init": "node src/exporter.js --init"
+  },
+  "dependencies": {}
+}

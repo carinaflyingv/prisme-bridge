@@ -1,0 +1,15 @@
+{
+  "collections": {
+    "segment": [
+      "BMO.tokens.json",
+      "Beans.tokens.json",
+      "Fremy.tokens.json",
+      "Mr. Tibbs.tokens.json"
+    ],
+    "prisme": [
+      "light.tokens.json",
+      "dark.tokens.json"
+    ]
+  },
+  "defaultSegment": "Fremy"
+}

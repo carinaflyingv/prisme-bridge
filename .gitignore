@@ -1,0 +1,7 @@
+node_modules/
+export/
+tokens/
+figma-data.json
+.env
+.claude/
+*.log
